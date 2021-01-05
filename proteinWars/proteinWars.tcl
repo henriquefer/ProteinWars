@@ -1,6 +1,10 @@
 package provide vmdGame 1.0
 
 #### Load Packages ###################################################
+# Add the following 2 lines to your .vmdrc or vmd.rc file
+# lappend auto_path "/PATH/proteinWars"
+# vmd_install_extension vmdGame "vmdGame::start" "VMD Store/Protein Wars"
+
 #lappend auto_path /Users/nunomac/Documents/Dropbox/Code/VMDplugins/vmdGame/Final
 # Nota o lappned temn de estar no vmdRC
 
@@ -28,7 +32,7 @@ namespace eval vmdGame:: {
 		variable version	    	"0.1"
         variable topGui         	".vmdGame"
 		variable levelsID			0
-		variable Directory			"/Users/hfernandes/Documents/Software_development/vmdGame/proteinWars" ;#directory of levels
+		variable Directory		"/PATH/proteinWars" ; # Please, update the value of this variable for the installation path of your ProteinWars"
 		variable levelsDirectory 	"$Directory/levels"
 		variable soundMessagePID	0
 		variable soundAlarmPID		0
