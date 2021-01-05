@@ -28,5 +28,6 @@ lappend auto_path "/PATH/proteinWars"
 vmd_install_extension vmdGame "vmdGame::start" "VMD Store/Protein Wars"
 ```
 
-Please, edit the `proteinWars.tcl` file to chnage the value of the `Directory` variable. It should match the installation path of your ProteinWars.
+Please, edit the `proteinWars.tcl` file to change the value of the `Directory` variable. It should match the installation path of your ProteinWars.
+
 `		variable Directory		"/PATH/proteinWars"`
